@@ -17,3 +17,6 @@ These kernels - filters are
 # CNN - Only Localized connectivity, less parameters (filters can be added after each layer & weights can be calculated)
 ![conv](https://user-images.githubusercontent.com/57037068/83767224-706d4e80-a68e-11ea-8d94-85dfc67334bc.PNG)
 
+# Pooling layers remove some less important parts of the input data (convolutional layer) while preserving the main skeleton parts 
+Even a small layer can remove 75% of the input data by a 2x2 kernel and 2 strides
+![pooling](https://user-images.githubusercontent.com/57037068/83769388-d4911200-a690-11ea-8bf3-9ab4b61ba71c.PNG)
