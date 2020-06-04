@@ -3,6 +3,10 @@ Convolutional Neural Networks implementation and application
 
 # Kernels Example in setosa io
 
+Notes:
+ Parameters which should be changed according to the statement of the problem:
+ input_shape in the Convolutional Layer, which should be as the shape of the one element in the train/test set# number of neurons in the Dense layer which is final output layer - 10 in this specific problem where there are 10 classes
+ activation function in the final Dense layer which is SOFTMAX, for multi-class classification problem# activation fucntion could be SIGMOID for binary classification problem, such as Dog, or Cat Images problem
 These kernels - filters are 
 # Convolutional Kernels
 
